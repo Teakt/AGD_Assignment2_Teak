@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 40674726}
   m_Layer: 8
   m_Name: Point (7)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -241,7 +241,7 @@ Transform:
   m_GameObject: {fileID: 40674724}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.26, y: 0.3, z: 5.65}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 7
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &40674727
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -642,7 +642,7 @@ GameObject:
   - component: {fileID: 118857544}
   m_Layer: 8
   m_Name: Point (34)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -656,7 +656,7 @@ Transform:
   m_GameObject: {fileID: 118857542}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.72, y: 0.3, z: 5.12}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 34
@@ -673,7 +673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &118857545
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -749,7 +749,7 @@ GameObject:
   - component: {fileID: 230797314}
   m_Layer: 8
   m_Name: Point (5)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -763,7 +763,7 @@ Transform:
   m_GameObject: {fileID: 230797312}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.2, y: 0.3, z: 1.43}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 5
@@ -780,7 +780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &230797315
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -856,7 +856,7 @@ GameObject:
   - component: {fileID: 231313668}
   m_Layer: 8
   m_Name: Point (10)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -870,7 +870,7 @@ Transform:
   m_GameObject: {fileID: 231313666}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.3, y: 0.3, z: 2.76}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 10
@@ -887,7 +887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &231313669
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1423,7 +1423,7 @@ GameObject:
   - component: {fileID: 356457296}
   m_Layer: 8
   m_Name: Point (26)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1437,7 +1437,7 @@ Transform:
   m_GameObject: {fileID: 356457294}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.93, y: 0.3, z: -2.08}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 26
@@ -1454,7 +1454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &356457297
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1561,7 +1561,7 @@ GameObject:
   - component: {fileID: 386561798}
   m_Layer: 8
   m_Name: Point (4)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1575,7 +1575,7 @@ Transform:
   m_GameObject: {fileID: 386561796}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.11, y: 0.3, z: 3.54}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 4
@@ -1592,7 +1592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &386561799
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1668,7 +1668,7 @@ GameObject:
   - component: {fileID: 390237132}
   m_Layer: 8
   m_Name: Point (15)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1682,7 +1682,7 @@ Transform:
   m_GameObject: {fileID: 390237130}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.96, y: 0.3, z: -3.57}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 15
@@ -1699,7 +1699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &390237133
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1996,7 +1996,7 @@ GameObject:
   - component: {fileID: 437692430}
   m_Layer: 8
   m_Name: Point (11)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2010,7 +2010,7 @@ Transform:
   m_GameObject: {fileID: 437692428}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.37, y: 0.3, z: 2.16}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 11
@@ -2027,7 +2027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &437692431
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2356,7 +2356,7 @@ GameObject:
   - component: {fileID: 546760683}
   m_Layer: 8
   m_Name: Point (21)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2370,7 +2370,7 @@ Transform:
   m_GameObject: {fileID: 546760681}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.01, y: 0.3, z: -5.67}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 21
@@ -2387,7 +2387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &546760684
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2463,7 +2463,7 @@ GameObject:
   - component: {fileID: 549893747}
   m_Layer: 8
   m_Name: Point (14)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2477,7 +2477,7 @@ Transform:
   m_GameObject: {fileID: 549893745}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.35, y: 0.3, z: -6.41}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 14
@@ -2494,7 +2494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &549893748
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2662,7 +2662,7 @@ GameObject:
   - component: {fileID: 644969872}
   m_Layer: 8
   m_Name: Point (29)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2676,7 +2676,7 @@ Transform:
   m_GameObject: {fileID: 644969870}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.01, y: 0.3, z: 4.17}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 29
@@ -2693,7 +2693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &644969873
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2892,7 +2892,7 @@ GameObject:
   - component: {fileID: 768343946}
   m_Layer: 8
   m_Name: Point (30)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2906,7 +2906,7 @@ Transform:
   m_GameObject: {fileID: 768343944}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.11, y: 0.3, z: 4.32}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 30
@@ -2923,7 +2923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &768343947
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2999,7 +2999,7 @@ GameObject:
   - component: {fileID: 800838098}
   m_Layer: 8
   m_Name: Point (32)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3013,7 +3013,7 @@ Transform:
   m_GameObject: {fileID: 800838096}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.85, y: 0.3, z: 6.27}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 32
@@ -3030,7 +3030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &800838099
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3209,7 +3209,7 @@ GameObject:
   - component: {fileID: 844510886}
   m_Layer: 8
   m_Name: Point (28)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3223,7 +3223,7 @@ Transform:
   m_GameObject: {fileID: 844510884}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.39, y: 0.3, z: 5.7}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 28
@@ -3240,7 +3240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &844510887
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3316,7 +3316,7 @@ GameObject:
   - component: {fileID: 859805773}
   m_Layer: 8
   m_Name: Point (38)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3330,7 +3330,7 @@ Transform:
   m_GameObject: {fileID: 859805771}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.15, y: 0.3, z: 6.48}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 38
@@ -3347,7 +3347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &859805774
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3699,7 +3699,7 @@ GameObject:
   - component: {fileID: 954206197}
   m_Layer: 8
   m_Name: Point (16)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3713,7 +3713,7 @@ Transform:
   m_GameObject: {fileID: 954206195}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.95, y: 0.3, z: -4.39}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 16
@@ -3730,7 +3730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &954206198
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3806,7 +3806,7 @@ GameObject:
   - component: {fileID: 958956448}
   m_Layer: 8
   m_Name: Point (18)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3820,7 +3820,7 @@ Transform:
   m_GameObject: {fileID: 958956446}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.11, y: 0.3, z: -5.02}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 18
@@ -3837,7 +3837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &958956449
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3996,7 +3996,7 @@ GameObject:
   - component: {fileID: 974746966}
   m_Layer: 8
   m_Name: Point (24)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4010,7 +4010,7 @@ Transform:
   m_GameObject: {fileID: 974746964}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.03, y: 0.3, z: -1.98}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 24
@@ -4027,7 +4027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &974746967
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4195,7 +4195,7 @@ GameObject:
   - component: {fileID: 1053166650}
   m_Layer: 8
   m_Name: Point (25)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4209,7 +4209,7 @@ Transform:
   m_GameObject: {fileID: 1053166648}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.12, y: 0.3, z: 2.19}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 25
@@ -4226,7 +4226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1053166651
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4302,7 +4302,7 @@ GameObject:
   - component: {fileID: 1096583962}
   m_Layer: 8
   m_Name: Point (2)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4316,7 +4316,7 @@ Transform:
   m_GameObject: {fileID: 1096583960}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.31, y: 0.3, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 2
@@ -4333,7 +4333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1096583963
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4409,7 +4409,7 @@ GameObject:
   - component: {fileID: 1108758176}
   m_Layer: 8
   m_Name: Point (20)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4423,7 +4423,7 @@ Transform:
   m_GameObject: {fileID: 1108758174}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.66, y: 0.3, z: -2.96}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 20
@@ -4440,7 +4440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1108758177
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4608,7 +4608,7 @@ GameObject:
   - component: {fileID: 1167039526}
   m_Layer: 8
   m_Name: Point (6)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4622,7 +4622,7 @@ Transform:
   m_GameObject: {fileID: 1167039524}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.145, y: 0.3, z: 6.617}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 6
@@ -4639,7 +4639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1167039527
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4721,7 +4721,7 @@ GameObject:
   - component: {fileID: 1186378089}
   m_Layer: 8
   m_Name: Point (3)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4735,7 +4735,7 @@ Transform:
   m_GameObject: {fileID: 1186378087}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.37, y: 0.3, z: 2.01}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 3
@@ -4752,7 +4752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1186378090
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4860,7 +4860,7 @@ GameObject:
   - component: {fileID: 1260743934}
   m_Layer: 8
   m_Name: Point (27)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4874,7 +4874,7 @@ Transform:
   m_GameObject: {fileID: 1260743932}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.45, y: 0.3, z: -3.89}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 27
@@ -4891,7 +4891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1260743935
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4967,7 +4967,7 @@ GameObject:
   - component: {fileID: 1289769049}
   m_Layer: 8
   m_Name: Point (23)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4981,7 +4981,7 @@ Transform:
   m_GameObject: {fileID: 1289769047}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.78, y: 0.3, z: -3.78}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 23
@@ -4998,7 +4998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1289769050
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5074,7 +5074,7 @@ GameObject:
   - component: {fileID: 1293540841}
   m_Layer: 8
   m_Name: Point (39)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5088,7 +5088,7 @@ Transform:
   m_GameObject: {fileID: 1293540839}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.32, y: 0.3, z: -0.63}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 39
@@ -5105,7 +5105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1293540842
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5273,7 +5273,7 @@ GameObject:
   - component: {fileID: 1322883064}
   m_Layer: 8
   m_Name: Point (1)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5287,7 +5287,7 @@ Transform:
   m_GameObject: {fileID: 1322883062}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.24, y: 0.3, z: -3.24}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 1
@@ -5304,7 +5304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1322883065
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5472,7 +5472,7 @@ GameObject:
   - component: {fileID: 1495808770}
   m_Layer: 8
   m_Name: Point (35)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5486,7 +5486,7 @@ Transform:
   m_GameObject: {fileID: 1495808768}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.09, y: 0.3, z: 3.89}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 35
@@ -5503,7 +5503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1495808771
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5705,7 +5705,7 @@ GameObject:
   - component: {fileID: 1581040493}
   m_Layer: 8
   m_Name: Point (17)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5719,7 +5719,7 @@ Transform:
   m_GameObject: {fileID: 1581040491}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.28, y: 0.3, z: -6.43}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 17
@@ -5736,7 +5736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1581040494
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5812,7 +5812,7 @@ GameObject:
   - component: {fileID: 1582010101}
   m_Layer: 8
   m_Name: Point (33)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5826,7 +5826,7 @@ Transform:
   m_GameObject: {fileID: 1582010099}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.88, y: 0.3, z: 3.88}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 33
@@ -5843,7 +5843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1582010102
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5919,7 +5919,7 @@ GameObject:
   - component: {fileID: 1633503888}
   m_Layer: 8
   m_Name: Point (8)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5933,7 +5933,7 @@ Transform:
   m_GameObject: {fileID: 1633503886}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.86, y: 0.3, z: 4.51}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 8
@@ -5950,7 +5950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1633503889
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6118,7 +6118,7 @@ GameObject:
   - component: {fileID: 1708398796}
   m_Layer: 8
   m_Name: Point (13)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6132,7 +6132,7 @@ Transform:
   m_GameObject: {fileID: 1708398794}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.58, y: 0.3, z: -2.96}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 13
@@ -6149,7 +6149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1708398797
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6225,7 +6225,7 @@ GameObject:
   - component: {fileID: 1709660470}
   m_Layer: 8
   m_Name: Point (22)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6239,7 +6239,7 @@ Transform:
   m_GameObject: {fileID: 1709660468}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.58, y: 0.3, z: -6.49}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 22
@@ -6256,7 +6256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1709660471
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6396,7 +6396,7 @@ GameObject:
   - component: {fileID: 1739220292}
   m_Layer: 8
   m_Name: Point (12)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6410,7 +6410,7 @@ Transform:
   m_GameObject: {fileID: 1739220290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.59, y: 0.3, z: -0.01}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 12
@@ -6427,7 +6427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1739220293
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6503,7 +6503,7 @@ GameObject:
   - component: {fileID: 1747683731}
   m_Layer: 8
   m_Name: Point (19)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6517,7 +6517,7 @@ Transform:
   m_GameObject: {fileID: 1747683729}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.3, y: 0.3, z: -6.44}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 19
@@ -6534,7 +6534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1747683732
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6857,7 +6857,7 @@ GameObject:
   - component: {fileID: 1897043608}
   m_Layer: 8
   m_Name: Point (31)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6871,7 +6871,7 @@ Transform:
   m_GameObject: {fileID: 1897043606}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.03, y: 0.3, z: 6.28}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 31
@@ -6888,7 +6888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1897043609
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6970,7 +6970,7 @@ GameObject:
   - component: {fileID: 1922572417}
   m_Layer: 8
   m_Name: Point (36)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6984,7 +6984,7 @@ Transform:
   m_GameObject: {fileID: 1922572415}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.17, y: 0.3, z: 6.53}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 36
@@ -7001,7 +7001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1922572418
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7077,7 +7077,7 @@ GameObject:
   - component: {fileID: 1927956212}
   m_Layer: 8
   m_Name: Point (9)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7091,7 +7091,7 @@ Transform:
   m_GameObject: {fileID: 1927956210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.56, y: 0.3, z: 5.6}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 9
@@ -7108,7 +7108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1927956213
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7184,7 +7184,7 @@ GameObject:
   - component: {fileID: 1979080816}
   m_Layer: 8
   m_Name: Point (37)
-  m_TagString: Untagged
+  m_TagString: Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7198,7 +7198,7 @@ Transform:
   m_GameObject: {fileID: 1979080814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.07, y: 0.3, z: -1.03}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.05}
   m_Children: []
   m_Father: {fileID: 809565283}
   m_RootOrder: 37
@@ -7215,7 +7215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cdd1dea9109547b9bf814a1d25ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 30
+  ViewRadius: 60
 --- !u!136 &1979080817
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7522,10 +7522,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3197947692186715248, guid: 476da4e02f16b024e990d77278dcdc62,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3197947692186715248, guid: 476da4e02f16b024e990d77278dcdc62,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3197947692186715248, guid: 476da4e02f16b024e990d77278dcdc62,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 3197947692186715249, guid: 476da4e02f16b024e990d77278dcdc62,
         type: 3}
       propertyPath: m_Name
       value: Point
+      objectReference: {fileID: 0}
+    - target: {fileID: 3197947692186715249, guid: 476da4e02f16b024e990d77278dcdc62,
+        type: 3}
+      propertyPath: m_TagString
+      value: Point
+      objectReference: {fileID: 0}
+    - target: {fileID: 3197947692186715252, guid: 476da4e02f16b024e990d77278dcdc62,
+        type: 3}
+      propertyPath: ViewRadius
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 476da4e02f16b024e990d77278dcdc62, type: 3}

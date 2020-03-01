@@ -5,7 +5,7 @@ using UnityEngine;
 public class POV : MonoBehaviour
 {
 
-    public float ViewRadius = 30f;
+    public float ViewRadius = 50f;
     [Range(10, 360)]
     
 
@@ -38,21 +38,37 @@ public class POV : MonoBehaviour
 
 
 
-        
+        int i = 0;
 
 
         RaycastHit hit;
         // Does the ray intersect any objects excluding the player layer
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, layerMask))
+        while (i < list_points.Length)
         {
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
-            Debug.Log("Did Hit");
+            Vector3 dirToNextPoint = transform.position - list_points[i].transform.position;
+            float distToNextPoint = Vector3.Distance(transform.position, list_points[i].transform.position);
+
+
+            if (Physics.Raycast(transform.position, transform.TransformDirection(list_points[i].transform.position), out hit, distToNextPoint))
+            {
+                
+                if (hit.collider.CompareTag("Point"))
+                {
+                    Debug.DrawRay(transform.position, transform.TransformDirection(list_points[i].transform.position).normalized * hit.distance, Color.black);
+
+                }
+                else
+                {
+                   
+                }
+               
+            }
+            
+            
+
+            i++;
         }
-        else
-        {
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
-            Debug.Log("Did not Hit");
-        }
+        
     }
 
     Collider[] ZoneDetectSphere(Vector3 center, float radius)
@@ -61,12 +77,7 @@ public class POV : MonoBehaviour
 
         Collider[] hitColliders = Physics.OverlapSphere(center, radius, layerMask);
         int i = 0;
-        while (i < hitColliders.Length )
-        {
-            
-            
-            i++;
-        }
+        
 
         return hitColliders;
     }
