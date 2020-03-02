@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class POV : MonoBehaviour
 {
+    [SerializeField] private MeshRenderer Circle;
+    public Plane graphContainer;
+    public GameObject root_node;
+
 
     public float ViewRadius = 50f;
     [Range(10, 360)]
-    
 
+    public List<GameObject> list_nodes;
     Collider[] list_points;
 
     // Bit shift the index of the layer (8) to get a bit mask
@@ -16,8 +20,8 @@ public class POV : MonoBehaviour
 
     // This would cast rays only against colliders in layer 8.
     // But instead we want to collide against everything except layer 8. The ~ operator does this, it inverts a bitmask.
-    
 
+    
 
     // Start is called before the first frame update
     void Start()
@@ -29,16 +33,8 @@ public class POV : MonoBehaviour
             i++;
         }
 
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-
-
-        int i = 0;
+        i = 0;
 
 
         RaycastHit hit;
@@ -47,27 +43,48 @@ public class POV : MonoBehaviour
         {
             Vector3 dirToNextPoint = transform.position - list_points[i].transform.position;
             float distToNextPoint = Vector3.Distance(transform.position, list_points[i].transform.position);
-
-
-            if (Physics.Raycast(transform.position, transform.TransformDirection(list_points[i].transform.position), out hit, distToNextPoint))
+            int j = 0;
+            while (j < list_points.Length)
             {
-                
-                if (hit.collider.CompareTag("Point"))
+                if (Physics.Raycast(list_points[j].transform.position, transform.TransformDirection(list_points[i].transform.position), out hit, Mathf.Infinity))
                 {
-                    Debug.DrawRay(transform.position, transform.TransformDirection(list_points[i].transform.position).normalized * hit.distance, Color.black);
+
+                    if (hit.collider.CompareTag("Point"))
+                    {
+                        Debug.DrawRay(list_points[j].transform.position, transform.TransformDirection(list_points[i].transform.position).normalized * hit.distance, Color.black, 30f);
+
+                    }
+                    else
+                    {
+                        Debug.Log("Hit walls");
+                    }
 
                 }
                 else
                 {
-                   
+                    Debug.Log("Hit nothing");
                 }
-               
+
+                j++;
             }
-            
-            
+
+
+
+
 
             i++;
         }
+
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+
+
+        
         
     }
 
@@ -76,7 +93,7 @@ public class POV : MonoBehaviour
         
 
         Collider[] hitColliders = Physics.OverlapSphere(center, radius, layerMask);
-        int i = 0;
+        
         
 
         return hitColliders;
