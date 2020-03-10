@@ -195,7 +195,7 @@ public class AstarPath : VersionedMonoBehaviour {
 	///
 	/// See: Pathfinding.NNConstraint.constrainDistance
 	/// </summary>
-	public float maxNearestNodeDistance = 100;
+	public float maxNearestNodeDistance = 500;
 
 	/// <summary>
 	/// Max Nearest Node Distance Squared.
