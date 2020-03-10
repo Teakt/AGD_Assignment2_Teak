@@ -64,6 +64,7 @@ namespace Pathfinding.Util {
 
 		void DrawConnection (GraphNode other) {
 			builder.DrawLine(drawConnectionStart, Vector3.Lerp((Vector3)other.position, drawConnectionStart, 0.5f), drawConnectionColor);
+
 		}
 
 		/// <summary>
